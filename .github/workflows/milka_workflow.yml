@@ -39,5 +39,4 @@ jobs:
 
       # Step 5: Run Selenium tests
       - name: Run TestNG Selenium Tests
-        run: mvn clean test
-		
+        run: mvn clean test	
