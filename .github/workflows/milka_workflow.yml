@@ -1,5 +1,5 @@
 
-name: Salma Milka Osman Workflow
+name: Milka Workflow
 on:
   push:
     branches:

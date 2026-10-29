@@ -20,7 +20,7 @@ public class MyTestCase
 		options.addArguments("--headless=new"); //run chrome in headless mode
 		options.addArguments("--no-sandbox");  //run in a docker environment
 		options.addArguments("--disable-dev-shm-usage"); //disable/dev/shm usage -  overcome limited resource problems
-		driver = new ChromeDriver();
+		driver = new ChromeDriver(options);
 	}
 	
 	@Test
