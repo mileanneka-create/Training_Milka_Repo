@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-29T10:10:43 EDT" name="Milka Osman Salma Selenium Test Suite" finished-at="2026-10-29T10:11:29 EDT" duration-ms="46728">
+  <suite started-at="2026-10-29T17:33:26 EDT" name="Milka Salma Selenium Test Suite" finished-at="2026-10-29T17:33:52 EDT" duration-ms="25776">
     <groups>
     </groups>
-    <test started-at="2026-10-29T10:10:43 EDT" name="Verify Title TestCase" finished-at="2026-10-29T10:11:29 EDT" duration-ms="46728">
-      <class name="com.mycompany.myworkflow.MyTestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@6025e1b6]" started-at="2026-10-29T10:10:43 EDT" name="setup" finished-at="2026-10-29T10:10:44 EDT" duration-ms="1263" status="PASS">
+    <test started-at="2026-10-29T17:33:26 EDT" name="Verify Title TestCase" finished-at="2026-10-29T17:33:52 EDT" duration-ms="25776">
+      <class name="com.mycompany.myworkflow.SignupForm">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.myworkflow.SignupForm@7586beff]" started-at="2026-10-29T17:33:28 EDT" name="setup" finished-at="2026-10-29T17:33:29 EDT" duration-ms="806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@6025e1b6]" started-at="2026-10-29T10:10:44 EDT" name="verifyPageTitle" finished-at="2026-10-29T10:10:48 EDT" duration-ms="4375" status="PASS">
+        <test-method signature="signup()[pri:0, instance:com.mycompany.myworkflow.SignupForm@7586beff]" started-at="2026-10-29T17:33:30 EDT" name="signup" finished-at="2026-10-29T17:33:31 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mycompany.myworkflow.SignupForm@7586beff]" started-at="2026-10-29T17:33:41 EDT" name="tearDown" finished-at="2026-10-29T17:33:52 EDT" duration-ms="11226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mycompany.myworkflow.SignupForm -->
+      <class name="com.mycompany.myworkflow.MyTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@2d1ef81a]" started-at="2026-10-29T17:33:26 EDT" name="setup" finished-at="2026-10-29T17:33:28 EDT" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@2d1ef81a]" started-at="2026-10-29T17:33:29 EDT" name="verifyPageTitle" finished-at="2026-10-29T17:33:30 EDT" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@6025e1b6]" started-at="2026-10-29T10:10:48 EDT" name="tearDown" finished-at="2026-10-29T10:11:29 EDT" duration-ms="41045" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mycompany.myworkflow.MyTestCase@2d1ef81a]" started-at="2026-10-29T17:33:31 EDT" name="tearDown" finished-at="2026-10-29T17:33:41 EDT" duration-ms="9708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mycompany.myworkflow.MyTestCase -->
     </test> <!-- Verify Title TestCase -->
-  </suite> <!-- Milka Osman Salma Selenium Test Suite -->
+  </suite> <!-- Milka Salma Selenium Test Suite -->
 </testng-results>

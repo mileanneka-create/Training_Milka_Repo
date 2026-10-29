@@ -3,13 +3,14 @@
 <!DOCTYPE suite SYSTEM
         "https://testng.org/testng-1.0.dtd">
 
-<suite name="Milka Osman Salma Selenium Test Suite">
+<suite name="Milka Salma Selenium Test Suite">
 
     <test name="Verify Title TestCase">
 
         <classes>
 
             <class name="com.mycompany.myworkflow.MyTestCase"/>
+            <class name="com.mycompany.myworkflow.SignupForm"/>
 
         </classes>
 
